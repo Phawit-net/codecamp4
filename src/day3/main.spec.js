@@ -14,6 +14,6 @@ describe(`การเข้ารหัสแบบ Run-length เป็นว�
 		expect(main('OOSDFPDLLLLLWEEEESWWW')).toBe('2O1S1D1F1P1D5L1W4E1S3W')
 	});
 	test('ให้สตริง EADFDDDDFFFFFCNNNNDDDDDDDDD ควรคืนค่า 1E1A1D1F4D5F1C4N9D', () => {
-		expect(main('EADFDDDDFFFFFCNNNNDDDDDDDDDD')).toBe('1E1A1D1F4D5F1C4N10D')
+		expect(main('EADFDDDDFFFFFCNNNNDDDDDDDDD')).toBe('1E1A1D1F4D5F1C4N9D')
 	});
 });

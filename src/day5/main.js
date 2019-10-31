@@ -1,4 +1,4 @@
-function main(arr) {
+export function main(arr) {
 	for(let i =0;i<arr.length;i++)
 	{
 		for(let j =i+1;j<arr.length;j++)
@@ -29,6 +29,5 @@ function main(arr) {
 			}
 		}
 	}
-	console.log(arr);
+	return (arr);
 }
-main([ 'B', 'R' ])

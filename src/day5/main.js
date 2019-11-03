@@ -31,3 +31,5 @@ export function main(arr) {
 	}
 	return (arr);
 }
+
+module.exports = { main };

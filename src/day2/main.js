@@ -7,3 +7,5 @@ export function main(str, str2) {
 	}
 	return count; 
 }
+
+module.exports = { main };

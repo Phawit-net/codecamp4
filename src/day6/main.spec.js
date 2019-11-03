@@ -1,5 +1,5 @@
-import {main} from "./main";
-import {insert, Node} from "./mock";
+const { main } = require('./main');
+const { Node, insert } = require('./mock');
 
 describe('ให้ root ของ binary search tree ตัวหนึ่งมา จงหา node ที่มีค่าสูงสุดเป็นอันดับสอง', () => {
 	test('ให้ node ของเลข 50, 30, 40, 60, 70 และ 30 ควรคืนค่า 60', () => {
@@ -11,7 +11,7 @@ describe('ให้ root ของ binary search tree ตัวหนึ่ง�
 		insert(root, new Node(30));
 		expect(main(root)).toBe(60)
 	});
-	test('ให้ node ของเลข 63, 70, 25, 70, และ 33 ควรคืนค่า 63', () => {
+	test('ให้ node ของเลข 63, 70, 25, 71, และ 33 ควรคืนค่า 70', () => {
 		const root = new Node(63);
 		insert(root, new Node(70));
 		insert(root, new Node(25));
